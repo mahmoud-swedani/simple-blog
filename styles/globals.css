@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 1.5em;  
+}
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  text-align: center;
+  margin: 0 0;
+}
+footer {
+  background: #eee;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: auto
+}
+.page-content {
+  max-width: 1200px;
+  margin: 20px auto 80px;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
